@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Main Page</title>
+</head>
+<body>
+  <h1>Search Menu</h1>
+
+  <p>Type game title</p>
+  <div class="col-sm-7 search" style="padding-top:0px;">
+      <span>Enter the game: </span>
+      <form class="search_form" id="header-search" method="post" >
+        <input type="text" id="searchValue1" name="searchValue">
+        <input type="button" onclick="movepage()">
+        <script type="text/javascript">
+        function movepage(){
+          location.href="/result";
+        }
+        </script>
+      </form>
+    </div>
+  </body>
+</html>

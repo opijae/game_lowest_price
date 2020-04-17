@@ -1,0 +1,17 @@
+
+<h1>검색 결과</h1>
+
+<% for (var i = 0; i < title.length; i++) { %>
+
+    <h3>게임이름: <%= title[i] %> 가격: <%= price[i] %></h3>
+
+<% } %>
+
+<% for (var i = 0; i < youtubeURL.length; i++) { %>
+
+    <h3>동영상 제목: <%= youtubeTitle[i] %> </h3>
+    <a href='<%= youtubeURL[i] %>'>
+       <%= youtubeURL[i] %>
+   </a>
+
+<% } %>
